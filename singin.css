@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("./fonts/Minecraft.ttf") format("truetype");
+}
+
+html {
+    margin-top: 4rem;
+}
+
+body {
+    font-family: "Minecraft", sans-serif;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#bc {
+    background-image: url("./background/image0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 800px;
+    border: 6px solid #8b4513;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: 4.5rem;
+    margin-left: 20.9rem;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+#form {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    width: 60rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#form input,
+#form button {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#form button {
+    cursor: pointer;
+    background-color: rgb(85, 42, 42);
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+a {
+    padding: 2.3rem;
+    font-size: 2rem;
+    color: rgb(85, 42, 42);
+}
+
+#buttonDiv {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+    padding-top: 1px;
+}
+#change {
+    background-color: rgb(85, 42, 42);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    box-shadow: 3px 2px 1px rgb(88, 46, 46);
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 1rem;
+}
+#change:hover {
+    background-color: rgb(82, 45, 45);
+    color: white;
+    border-radius: 10%;
+}
+#a {
+    display: inline;
+    font-size: 1rem;
+    color: #4e4747;
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#a:hover {
+    color: #272626;
+}
